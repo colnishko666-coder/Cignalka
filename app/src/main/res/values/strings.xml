@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">IBT Start</string>
+
+    <!-- Navigation tabs -->
+    <string name="nav_control">Пульт</string>
+    <string name="nav_automation">Авто и PKE</string>
+    <string name="nav_settings">Устройство</string>
+
+    <!-- Connection & Simulation -->
+    <string name="status_connected_ble">BLE подключено</string>
+    <string name="status_connecting">Подключение…</string>
+    <string name="status_simulation_mode">Симуляция модуля</string>
+    <string name="status_disconnected">Нет связи с модулем</string>
+    <string name="simulation_banner_title">Режим симуляции (без блока в авто)</string>
+    <string name="simulation_banner_desc">Команды и телеметрия имитируются безопасно на устройстве. Подключите блок IBT по Bluetooth в разделе «Устройство».</string>
+
+    <!-- Engine & Key Fob Controls -->
+    <string name="engine_start">ЗАПУСК</string>
+    <string name="engine_stop">СТОП</string>
+    <string name="engine_hold_hint">Удерживайте для запуска</string>
+    <string name="engine_tap_hint">Нажмите для запуска</string>
+    <string name="engine_hold_stop_hint">Удерживайте для остановки</string>
+    <string name="engine_running_label">Двигатель работает</string>
+    <string name="engine_stopped_label">Двигатель заглушен</string>
+    <string name="engine_cranking_label">Прокрутка стартера…</string>
+
+    <string name="cmd_lock">Закрыть</string>
+    <string name="cmd_lock_sub">На охрану</string>
+    <string name="cmd_unlock">Открыть</string>
+    <string name="cmd_unlock_sub">Снять охрану</string>
+    <string name="cmd_trunk">Багажник</string>
+    <string name="cmd_trunk_sub">Открыть</string>
+    <string name="cmd_find">Поиск авто</string>
+    <string name="cmd_find_sub">Сигнал и свет</string>
+
+    <!-- Vehicle Status -->
+    <string name="security_armed">На охране</string>
+    <string name="security_disarmed">Открыта</string>
+    <string name="security_panic">Сигнал поиска</string>
+    <string name="trunk_closed">Закрыт</string>
+    <string name="trunk_open">Открыт</string>
+    <string name="warmup_duration_title">Время прогрева</string>
+    <string name="quick_features_title">Умные функции</string>
+    <string name="pke_short">PKE (Свободные руки)</string>
+    <string name="shake_short">Встряхивание</string>
+
+    <!-- Automation & PKE Screen -->
+    <string name="schedules_title">Расписание автозапуска</string>
+    <string name="schedules_add">Добавить таймер</string>
+    <string name="schedules_empty">Нет активных таймеров прогрева. Добавьте утренний автозапуск по расписанию.</string>
+    <string name="pke_radar_title">Бесключевой доступ (PKE)</string>
+    <string name="shake_card_title">Управление встряхиванием</string>
+    <string name="event_log_title">Журнал событий</string>
+    <string name="event_log_clear">Очистить</string>
+    <string name="event_log_empty">Событий пока нет</string>
+
+    <!-- Settings & BLE Screen -->
+    <string name="ble_section_title">Bluetooth-модуль IBT</string>
+    <string name="ble_scan_start">Найти модуль</string>
+    <string name="ble_scan_stop">Остановить поиск</string>
+    <string name="ble_disconnect">Отключить</string>
+    <string name="ble_connect">Подключить</string>
+    <string name="ble_permission_needed">Разрешите доступ к Bluetooth для поиска и подключения модуля сигнализации.</string>
+    <string name="ble_grant_permission">Выдать разрешение</string>
+    <string name="ble_enable_prompt">Включите Bluetooth на смартфоне</string>
+    <string name="vehicle_settings_title">Настройки автомобиля</string>
+    <string name="background_tips_title">Стабильная работа в фоне</string>
+    <string name="open_app_settings">Настройки батареи и разрешений</string>
+</resources>

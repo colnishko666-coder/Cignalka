@@ -1,0 +1,6 @@
+{
+  "name": "IBT Start",
+  "description": "Удобное управление автозапуском двигателя, бесключевым доступом (PKE) и охранными функциями автомобиля по Bluetooth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
